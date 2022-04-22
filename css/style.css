@@ -5,7 +5,7 @@ body{
 }
 .topo {
     height: 50vh;
-    background-color: rgb(211, 209, 209);
+    background-color: #d3d1d1;
     transition: 1s ease-out;
 }
 
@@ -101,4 +101,6 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+
 
