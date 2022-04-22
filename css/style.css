@@ -32,6 +32,8 @@ body{
 }
 
 .boxes {
+    width: 100%;
+    height: 10vh;
     padding-top: 15px;
     display: flex;
     justify-content: center;
@@ -39,8 +41,15 @@ body{
 
 .home-wrapper {
     background-color: rgb(255, 144, 47);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25%;
+    height: 100%;
     border: 4px solid rgb(255, 144, 47);
     border-radius: 15px;
+}
+
+.icon-home {
+    width: 10%;
 }
