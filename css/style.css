@@ -43,7 +43,6 @@ body{
     background-color: rgb(255, 144, 47);
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 25%;
     height: 100%;
     border: 4px solid rgb(255, 144, 47);
@@ -53,3 +52,54 @@ body{
 .icon-home {
     width: 10%;
 }
+
+
+.link-home {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.link {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.link2 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.column1-wrapper {
+    background-color: rgb(255, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    border: 4px solid rgb(255, 47, 47);
+    border-radius: 15px;
+}
+
+.boxes-column1 {
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boxes-column2 {
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
