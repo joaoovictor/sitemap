@@ -1,10 +1,23 @@
-.topo {
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+body{
+    font-family:'Poppins', sans-serif;
 }
+.topo {
+    height: 50vh;
+    background-color: rgb(211, 209, 209);
+    object-fit: cover;
+    object-position: 50% 0%;
+    transition: 1s ease-out;
+}
+
+.topo:hover {
+    background-color: rgb(255, 255, 255);
+}
+
 .header-menu-wrapper {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     display: flex;
-    align-content: center;
     align-items: center;
     justify-content: space-around;
 }
@@ -14,7 +27,7 @@
 }
 
 .text-header-wrapper{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
 }
