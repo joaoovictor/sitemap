@@ -6,8 +6,6 @@ body{
 .topo {
     height: 50vh;
     background-color: rgb(211, 209, 209);
-    object-fit: cover;
-    object-position: 50% 0%;
     transition: 1s ease-out;
 }
 
@@ -22,6 +20,7 @@ body{
     justify-content: space-around;
 }
 
+
 .logo {
     width: 80%;
 }
@@ -30,4 +29,18 @@ body{
     padding-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+.boxes {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-wrapper {
+    background-color: rgb(255, 144, 47);
+    text-align: center;
+    width: 25%;
+    border: 4px solid rgb(255, 144, 47);
+    border-radius: 15px;
 }
