@@ -16,6 +16,7 @@ body{
 }
 
 .text-page {
+    padding: 2em;
     width: 40%;
     height: 40%;
     border: 3px solid rgb(162, 165, 168);
@@ -26,10 +27,23 @@ body{
     align-items: center;
 }
  
+.button-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_style {
+    border-radius: 10px;
+    background-color: #555555;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
 h1 {
     text-align: center;
 }
 
 p {
-    font-size: 90%;
+    font-size: 100%;
 }
