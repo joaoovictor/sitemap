@@ -24,6 +24,7 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
+    padding: 2em;
 }
  
 h1 {
@@ -31,5 +32,20 @@ h1 {
 }
 
 p {
-    font-size: 90%;
+    font-size: 100%;
+}
+
+.btn_paginainicial_style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+    background-color: #555555;
+    color: #ffffff;
 }
