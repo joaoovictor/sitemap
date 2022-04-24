@@ -40,19 +40,19 @@ body{
 }
 
 .home-wrapper {
-    background-color: #46788C;
+    background-color:  #a66329;
     display: flex;
     justify-content: center;
     width: 25%;
     height: 100%;
-    border: 4px solid #46788C;
+    border: 4px solid #a66329;
     border-radius: 15px;
     transition: all 1s ease;
 }
 
 .home-wrapper:hover{
-    background-color: #5d98af;
-    border: 4px solid #5d98af;
+    background-color: #c38147;
+    border: 4px solid #c38147;
 }
 
 .icon-home {
@@ -85,34 +85,34 @@ body{
 
 .column2-wrapper {
     margin-top: 10px;
-    background-color: #f8a0a0;
+    background-color: rgb(183, 110, 89);
     display: flex;
     justify-content: center;
     height: 100%;
-    border: 4px solid #f8a0a0;
+    border: 4px solid rgb(183, 110, 89);
     border-radius: 15px;
     transition: all 1s ease;
 }
 
 .column2-wrapper:hover {
-    background-color: #f5b3b3;
-    border: 4px solid #f5b3b3;
+    background-color: rgb(132, 81, 66);
+    border: 4px solid rgb(132, 81, 66);
 }
 
 .column3-wrapper {
     margin-top: 10px;
-    background-color: #a66329;
+    background-color: #46788C;
     display: flex;
     justify-content: center;
     height: 100%;
-    border: 4px solid #a66329;
+    border: 4px solid #46788C;
     border-radius: 15px;
     transition: all 1s ease;
 }
 
 .column3-wrapper:hover {
-    background-color: #c38147;
-    border: 4px solid #c38147;
+    background-color: #5d98af;
+    border: 4px solid #5d98af;
 }
 
 .boxes-column1 {
