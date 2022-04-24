@@ -144,6 +144,10 @@ body{
     padding-top: 2%;
 }
 
+.seta {
+    width: 60%;
+}
+
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
