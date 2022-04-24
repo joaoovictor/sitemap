@@ -79,8 +79,8 @@ body{
 }
 
 .column1-wrapper:hover {
-    background-color: rgb(119, 41, 41);
-    border: 4px solid rgb(119, 41, 41);
+    background-color: rgb(177, 40, 40);
+    border: 4px solid rgb(177, 40, 40);
 }
 
 .column2-wrapper {
@@ -95,8 +95,9 @@ body{
 }
 
 .column2-wrapper:hover {
-    background-color: #911f91;
-    border: 4px solid #911f91;
+    background-color: #be3dbe;
+    border: 4px solid #be3dbe;
+    ;
 }
 
 .column3-wrapper {
@@ -111,8 +112,8 @@ body{
 }
 
 .column3-wrapper:hover {
-    background-color: rgb(58, 162, 35);
-    border: 4px solid rgb(58, 162, 35);
+    background-color: rgb(69, 160, 49);
+    border: 4px solid rgb(69, 160, 49);
 }
 
 .boxes-column1 {
