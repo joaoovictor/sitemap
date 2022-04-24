@@ -5,7 +5,7 @@ body{
 }
 .topo {
     height: 50vh;
-    background-color: #d3d1d1;
+    background-color: #b0adad;
     transition: 1s ease-out;
 }
 
@@ -47,6 +47,12 @@ body{
     height: 100%;
     border: 4px solid rgb(255, 144, 47);
     border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.home-wrapper:hover{
+    background-color: rgb(149, 84, 27);
+    border: 4px solid rgb(149, 84, 27);
 }
 
 .icon-home {
@@ -65,19 +71,32 @@ body{
     background-color: rgb(255, 47, 47);
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
     border: 4px solid rgb(255, 47, 47);
     border-radius: 15px;
+    transition: all 1s ease
+}
+
+.column1-wrapper:hover {
+    background-color: rgb(119, 41, 41);
+    border: 4px solid rgb(119, 41, 41);
 }
 
 .column2-wrapper {
     margin-top: 10px;
-    background-color: rgb(255, 47, 255);
+    background-color: #ff2fff;
     display: flex;
     justify-content: center;
     height: 100%;
-    border: 4px solid rgb(255, 47, 255);
+    border: 4px solid #ff2fff;
     border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.column2-wrapper:hover {
+    background-color: #911f91;
+    border: 4px solid #911f91;
 }
 
 .column3-wrapper {
@@ -88,19 +107,60 @@ body{
     height: 100%;
     border: 4px solid rgb(85, 255, 47);
     border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.column3-wrapper:hover {
+    background-color: rgb(58, 162, 35);
+    border: 4px solid rgb(58, 162, 35);
 }
 
 .boxes-column1 {
-    width: 15%;
-    padding-top: 40px;
-    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
 }
+
 
 .boxes-row {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.wrapper-seta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.setadown {
+    padding-top: 2%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 
+
+footer{
+    width: 100%;
+    height: 100%
+}
+
+
+
+.rodape {
+    display: flex;
+    background-color: #b0adad;
+    padding-left: 10px;
+}
 
